@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest identifier="szLaHl9KmBIaE" xmlns="http://www.imsproject.org/xsd/imscp_rootv1p1p2" xmlns:adlcp="http://www.adlnet.org/xsd/adlcp_rootv1p2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:lom="http://www.imsglobal.org/xsd/imsmd_rootv1p2p1" xsi:schemaLocation="http://www.imsproject.org/xsd/imscp_rootv1p1p2 imscp_rootv1p1p2.xsd http://www.imsglobal.org/xsd/imsmd_rootv1p2p1 imsmd_rootv1p2p1.xsd http://www.adlnet.org/xsd/adlcp_rootv1p2 adlcp_rootv1p2.xsd">
+<metadata>
+<schema>ADL SCORM</schema>
+<schemaversion>1.2</schemaversion>
+<lom:lom>
+<lom:general>
+<lom:title>
+<lom:langstring>TEST - FRA - QUIZ APM403</lom:langstring>
+</lom:title>
+</lom:general>
+<lom:educational>
+<lom:typicallearningtime>
+<lom:datetime>01:00:00</lom:datetime>
+</lom:typicallearningtime>
+</lom:educational>
+</lom:lom>
+</metadata>
+<organizations default="test_-_fra_-_quiz_apm403_organization">
+<organization identifier="test_-_fra_-_quiz_apm403_organization">
+<title>TEST - FRA - QUIZ APM403</title>
+<item identifier="F2FC1CD5-AAEC-4C00-8C56-E5689D98ECD7" identifierref="resource">
+<title>TEST - FRA - QUIZ APM403</title>
+</item>
+</organization>
+</organizations>
+<resources>
+<resource identifier="resource" type="webcontent" adlcp:scormtype="sco" href="res/index.html">
+<file href="res/index.html"/>
+<file href="res/lms.js"/>
+<file href="res/data/thmb1.jpg"/>
+<file href="res/data/quiz1.js"/>
+<file href="res/data/quiz1/fonts/fnt0.woff"/>
+<file href="res/data/quiz1/fonts/fnt1.woff"/>
+<file href="res/data/quiz1/fonts/fnt2.woff"/>
+<file href="res/data/quiz1/fonts/fnt3.woff"/>
+<file href="res/data/quiz1/fonts/fnt4.woff"/>
+<file href="res/data/quiz1/fonts/fnt5.woff"/>
+<file href="res/data/quiz1/images/img-016974adbb858dfba3ea51b8c8f7b1b28b668b0c.png"/>
+<file href="res/data/quiz1/images/img-01e91370396036e3952c46c5863b93d2554a34af.png"/>
+<file href="res/data/quiz1/images/img-0b5eaa9ac3058aaf17953a59be04865f5cc9b9a3.jpg"/>
+<file href="res/data/quiz1/images/img-147388c8e0f12602512714251e414563c523e807.png"/>
+<file href="res/data/quiz1/images/img-28a59a3524ab1c9c5064ca5f69afdd0a9fff05ea.jpg"/>
+<file href="res/data/quiz1/images/img-39e3b6ca48e4a3eb2851e90573a86b15ec027741.png"/>
+<file href="res/data/quiz1/images/img-47bafde23b620e84e59d2ada071d04a0b9d70071.jpg"/>
+<file href="res/data/quiz1/images/img-4e04c3bdb120a84ac9a9d2b2ea6c960c7c76af23.png"/>
+<file href="res/data/quiz1/images/img-5d22838c573df9e8e23035c410947e22de02c46b.jpg"/>
+<file href="res/data/quiz1/images/img-6864a74c743ed94dc50e7f1de9dd33be77ea6b35.png"/>
+<file href="res/data/quiz1/images/img-7e7a5df9e11aefa235bae01a86d439f730daf538.jpg"/>
+<file href="res/data/quiz1/images/img-8ec53582b98fb4f415f177ee5b9b6cdacf257553.png"/>
+<file href="res/data/quiz1/images/img-93a235b753c566db8a4e3d7d7f3cefc3f6d54dad.jpg"/>
+<file href="res/data/quiz1/images/img-a6e1347b6d841b36e29f2460676fbe06ed6e1f46.png"/>
+<file href="res/data/quiz1/images/img-b23f9763c4aca02f28cc9a7e712cc9a199b01b0a.bmp"/>
+<file href="res/data/quiz1/images/img-cc3360cbc4a01b8baa9ebce94377afdb4d15b56c.jpg"/>
+<file href="res/data/quiz1/images/img-d3c73027a5edf2094434c6c68da861a1fc1aeeda.png"/>
+<file href="res/data/quiz1/images/img-d6da3ea89fd8d0cff14d707c7a9659f5b1586450.jpg"/>
+<file href="res/data/quiz1/images/img-d917deb554260d0038a680eb966e3f82dbbe40ef.jpg"/>
+<file href="res/data/quiz1/images/img-dcac487a33e41f72f1d40101cc83a53b2672e7ad.png"/>
+<file href="res/data/quiz1/images/img-ee3113463ad414cbb2deba85d0de687058280b16.jpg"/>
+<file href="res/data/quiz1/images/img-f222439f14835515acc5bec6a5ceafe165648317.png"/>
+<file href="res/data/quiz1/images/quiz_bg_0.png"/>
+<file href="res/data/quizplayer.js"/>
+<file href="res/index.html"/>
+<file href="res/data/player.js"/>
+<file href="res/data/eraser.cur"/>
+<file href="res/data/highlighter.cur"/>
+<file href="res/data/marker.cur"/>
+<file href="res/data/lock.cur"/>
+<file href="res/data/browsersupport.js"/>
+<file href="res/data/apple-touch-icon.png"/>
+<file href="res/data/favicon.ico"/>
+<file href="res/data/fnt0.woff"/>
+<file href="res/data/fnt1.woff"/>
+<file href="res/data/fnt2.woff"/>
+<file href="res/data/fnt3.woff"/>
+<file href="res/data/fnt4.woff"/>
+<file href="res/data/fnt5.woff"/>
+<file href="res/data/fnt6.woff"/>
+<file href="res/data/html5-unsupported.html"/>
+<file href="res/data/html5.png"/>
+<file href="res/data/img0.png"/>
+<file href="res/data/img1.png"/>
+<file href="res/data/img2.png"/>
+<file href="res/data/img3.png"/>
+<file href="res/data/logo.png"/>
+</resource>
+</resources>
+</manifest>
