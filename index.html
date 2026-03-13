@@ -162,5 +162,35 @@
 })
 );
     </script>
+<script src="https://cdn.jsdelivr.net/npm/emailjs-com@3/dist/email.min.js"></script>
+
+<script>
+(function(){
+emailjs.init("C3baODxq9NzRhQD9P");
+})();
+
+function envoyerResultat(nom,email,score,reponses){
+
+emailjs.send("service_lwi7p29","template_x47y2fl",{
+student_name: nom,
+student_email: email,
+score: score,
+answers: reponses
+});
+
+}
+</script>
+<script>
+setTimeout(function(){
+
+var nom = "Etudiant";
+var email = "etudiant@email.com";
+var score = "Quiz terminé";
+var reponses = "Voir plateforme";
+
+envoyerResultat(nom,email,score,reponses);
+
+},3000);
+</script>
 </body>
 </html>
