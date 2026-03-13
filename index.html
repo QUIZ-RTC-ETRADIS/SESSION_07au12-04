@@ -169,28 +169,33 @@
 emailjs.init("C3baODxq9NzRhQD9P");
 })();
 
-function envoyerResultat(nom,email,score,reponses){
+<script>
+// Fonction pour envoyer le vrai résultat
+function envoyerResultatReel(etudiant, slide) {
+    var nom = etudiant.name();       // Nom de l'étudiant
+    var email = etudiant.email();    // Email de l'étudiant
+    var score = slide.awardedScore(); // Score obtenu
+    var reponses = slide.result();   // Correct / Incorrect / Neutral
 
-emailjs.send("service_lwi7p29","template_x47y2fl",{
-student_name: nom,
-student_email: email,
-score: score,
-answers: reponses
-});
-
+    emailjs.send("service_lwi7p29", "template_x47y2fl", {
+        student_name: nom,
+        student_email: email,
+        quiz_score: score,
+        quiz_answers: reponses
+    })
+    .then(function(response) {
+       console.log("Email envoyé !", response.status, response.text);
+    }, function(error) {
+       console.log("Erreur d'envoi : ", error);
+    });
 }
 </script>
 <script>
-setTimeout(function(){
-
-var nom = "Etudiant";
-var email = "etudiant@email.com";
-var score = "Quiz terminé";
-var reponses = "Voir plateforme";
-
-envoyerResultat(nom,email,score,reponses);
-
-},3000);
+// Appel automatique quand le quiz est terminé
+// currentStudent et currentSlide sont fournis par iSpring
+envoyerResultatReel(currentStudent, currentSlide);
 </script>
+</script>
+
 </body>
 </html>
